@@ -1,0 +1,61 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.but:hover{
+    cursor: pointer;
+
+}
+.parent2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.child4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;  
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.child4 div{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+a{
+    color: brown;
+    font-weight: bold;
+}
+
